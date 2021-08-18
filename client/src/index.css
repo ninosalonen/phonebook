@@ -1,0 +1,68 @@
+html {
+  background-color: #01010135;
+}
+
+input {
+  text-align: center;
+}
+
+.h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+  padding-top: 1rem;
+}
+
+h3 {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.person {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem
+}
+
+.notif {
+  color: black;
+  font-size: 1.5rem;
+  background-color: grey;
+  padding: 0.5rem;
+  border-style: solid;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.delButton {
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem
+}
+
+.f, .addDiv, .se{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.add {
+  background-color: black;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem
+}
