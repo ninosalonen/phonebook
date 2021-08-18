@@ -26,6 +26,10 @@ const errorHandler = (error, request, response, next) => {
   next(error)
 }
 
+app.get("/health", (req, res) => {
+  res.send("ok")
+})
+
 app.get("/info", (req, res) => {
   Person.find({}).then(persons => {
     const len = persons.length
