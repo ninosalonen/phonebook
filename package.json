@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "heroku-postbuild": "cd client && npm install && npm run build",
     "lint": "eslint .",
-    "test:e2e": "cypress run",
+    "test:e2e": "cypress run"
   },
   "author": "Nino Salonen",
   "license": "ISC",
