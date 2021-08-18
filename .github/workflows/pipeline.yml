@@ -25,6 +25,12 @@ jobs:
         cd ..
     - name: npm run lint
       run: npm run lint
+    - name: e2e tests
+      uses: cypress-io/github-action@v2
+      with:
+        start: npm start
+        wait-on: 'http://localhost:3010/'
+        command: npm run test:e2e
     - name: push to heroku
       uses: akhileshns/heroku-deploy@v3.12.12
       if: ${{ github.event_name == 'push'  && !contains(join(github.event.commits.*.message, ' '), '#skip') }}
