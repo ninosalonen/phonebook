@@ -1,13 +1,15 @@
 .env 
 
-MONGODB_URI
+-MONGODB_URI
 
-PORT
+-PORT
 
-npm install, npm install in client folder
+"npm install"
 
-npm run build in client folder
+"npm install" in client folder
 
-npm start
+"npm run build" in client folder
+
+"npm start"
 
 deployed on heroku: https://ninobookapp.herokuapp.com/
