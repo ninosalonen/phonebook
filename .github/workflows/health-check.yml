@@ -9,7 +9,7 @@ jobs:
       - name: Check the deployed service URL
         uses: jtalk/url-health-check-action@v1.5
         with:
-          url: https://www.youtube.com/
+          url: https://ninobookapp.herokuapp.com/health
           follow-redirect: no
           max-attempts: 3
           retry-delay: 5s
