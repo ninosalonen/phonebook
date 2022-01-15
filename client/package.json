@@ -24,7 +24,7 @@
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",    
     "logs:prod": "heroku logs --tail"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:3010",
   "eslintConfig": {
     "extends": [
       "react-app",

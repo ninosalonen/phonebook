@@ -1,9 +1,18 @@
 html {
-  background-color: #01010135;
+  background-color: #fcbf49;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  overscroll-behavior: none;
 }
 
 input {
   text-align: center;
+  background-color: white;
+  border-width: 0.1rem;
+  border-radius: 0.2rem;
 }
 
 .h1 {
@@ -28,13 +37,13 @@ h3 {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 0.5rem
+  padding: 0.5rem;
 }
 
 .notif {
   color: black;
   font-size: 1.5rem;
-  background-color: grey;
+  background-color: white;
   padding: 0.5rem;
   border-style: solid;
   border-radius: 0.2rem;
@@ -43,26 +52,21 @@ h3 {
   text-align: center;
 }
 
+.add,
 .delButton {
+  border-radius: 0.2rem;
   background-color: black;
   border: none;
   color: white;
-  text-align: center;
   text-decoration: none;
-  font-size: 1rem
+  font-size: 1rem;
 }
 
-.f, .addDiv, .se{
+.f,
+.addDiv,
+.se {
   display: flex;
   justify-content: center;
   text-align: center;
   padding: 0.3rem;
-}
-
-.add {
-  background-color: black;
-  border: none;
-  color: white;
-  text-decoration: none;
-  font-size: 1rem
 }
